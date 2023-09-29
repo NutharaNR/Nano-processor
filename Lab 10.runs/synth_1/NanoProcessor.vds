@@ -1,0 +1,557 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Sep  1 11:17:18 2022
+# Process ID: 22548
+# Current directory: D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.runs/synth_1
+# Command line: vivado.exe -log NanoProcessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NanoProcessor.tcl
+# Log file: D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.runs/synth_1/NanoProcessor.vds
+# Journal file: D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source NanoProcessor.tcl -notrace
+Command: synth_design -top NanoProcessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28152 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 434.898 ; gain = 95.523
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:46]
+INFO: [Synth 8-3491] module 'NanoProcessorUpper' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' bound to instance 'NPU' of component 'NanoProcessorUpper' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'NanoProcessorUpper' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:49]
+INFO: [Synth 8-3491] module 'INS_DECO2' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd:34' bound to instance 'InsDeco' of component 'INS_DECO2' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'INS_DECO2' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd:49]
+INFO: [Synth 8-3491] module 'TWISTER' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/TWISTER.vhd:34' bound to instance 'TW_01' of component 'TWISTER' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'TWISTER' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/TWISTER.vhd:42]
+INFO: [Synth 8-3491] module 'MUX_2_WAY_4bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_WAY_4bit.vhd:34' bound to instance 'MUX1' of component 'MUX_2_WAY_4bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/TWISTER.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_WAY_4bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_WAY_4bit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_WAY_4bit' (1#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_WAY_4bit.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_2_WAY_4bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_WAY_4bit.vhd:34' bound to instance 'MUX2' of component 'MUX_2_WAY_4bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/TWISTER.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'TWISTER' (2#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/TWISTER.vhd:42]
+WARNING: [Synth 8-3848] Net ZeroF in module/entity INS_DECO2 does not have driver. [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'INS_DECO2' (3#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd:49]
+INFO: [Synth 8-3491] module 'MUX_8_way_8_bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:34' bound to instance 'MUX_8_way_8_bit_1' of component 'MUX_8_way_8_bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_way_8_bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:48]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_0' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Dec_3_to_8' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_3_to_8.vhd:34' bound to instance 'Dec_3_to_8_0' of component 'Dec_3_to_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'Dec_3_to_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Dec_2_to_4' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_2_to_4.vhd:34' bound to instance 'Dec_2_to_4_0' of component 'Dec_2_to_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_3_to_8.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'Dec_2_to_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Dec_2_to_4' (4#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Dec_2_to_4' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_2_to_4.vhd:34' bound to instance 'Dec_2_to_4_1' of component 'Dec_2_to_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_3_to_8.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'Dec_3_to_8' (5#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_3_to_8.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (6#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_1' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:76]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_2' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:93]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_3' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:110]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_4' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:126]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_5' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:142]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_6' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:159]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'MUX_8_to_1_7' of component 'MUX_8_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:176]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_way_8_bit' (7#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:48]
+INFO: [Synth 8-3491] module 'MUX_8_way_8_bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd:34' bound to instance 'MUX_8_way_8_bit_2' of component 'MUX_8_way_8_bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:160]
+INFO: [Synth 8-3491] module 'MUX_2_way_8_bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:34' bound to instance 'MUX_2_way_8_bit_0' of component 'MUX_2_way_8_bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_8_bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_0' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1' (8#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_1' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:59]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_2' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:67]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_3' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:74]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_4' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:81]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_5' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:89]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_6' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:97]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_1_to_2_7' of component 'MUX_2_to_1' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_8_bit' (9#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd:41]
+INFO: [Synth 8-3491] module 'RegBank' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:34' bound to instance 'RegBank0' of component 'RegBank' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'RegBank' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:49]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:39]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (10#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (11#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:39]
+INFO: [Synth 8-3491] module 'Reset' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Reset.vhd:34' bound to instance 'Reset_0' of component 'Reset' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'Reset' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Reset.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Reset' (12#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Reset.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_0' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (13#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:41]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_1' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:102]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_2' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:108]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_3' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:114]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_4' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:120]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_5' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:126]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_6' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:132]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_7' of component 'Reg' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'RegBank' (14#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd:49]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:34' bound to instance 'ALU_0' of component 'ALU' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:46]
+INFO: [Synth 8-3491] module 'Inverter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Inverter.vhd:34' bound to instance 'Inverter_0' of component 'Inverter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'Inverter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Inverter.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Inverter' (15#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Inverter.vhd:40]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'ADD_SUB' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:42]
+INFO: [Synth 8-3491] module 'RCA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:34' bound to instance 'RCA4_0' of component 'RCA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'RCA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:51]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'FA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'HA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (16#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'FA' (17#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:69]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:76]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'RCA' (18#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:51]
+INFO: [Synth 8-3491] module 'RCA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:34' bound to instance 'RCA4_1' of component 'RCA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'RCA8bit' (19#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:42]
+INFO: [Synth 8-3491] module 'Multiplier' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:34' bound to instance 'MULTIPLIER_0' of component 'Multiplier' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'Multiplier' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:41]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_0' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:67]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_1' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:74]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_2' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:81]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_3' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:88]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_4' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:95]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_5' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:102]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_6' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:109]
+INFO: [Synth 8-3491] module 'RCA8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd:34' bound to instance 'RCA8bit_7' of component 'RCA8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:116]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_1' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:40]
+INFO: [Synth 8-3491] module 'Bitshiftleft' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Bitshiftleft.vhd:34' bound to instance 'bsl' of component 'Bitshiftleft' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'Bitshiftleft' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Bitshiftleft.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Bitshiftleft' (20#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Bitshiftleft.vhd:39]
+INFO: [Synth 8-3491] module 'Bitshiftright' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Bitshiftright.vhd:34' bound to instance 'bs2' of component 'Bitshiftright' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'Bitshiftright' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Bitshiftright.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Bitshiftright' (21#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Bitshiftright.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'BitShifter' (22#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:40]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_2' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:128]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_3' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:133]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_4' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:138]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_5' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:143]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_6' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:148]
+INFO: [Synth 8-3491] module 'BitShifter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd:34' bound to instance 'BitShifter_7' of component 'BitShifter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:153]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_0' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Combiner' (23#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:40]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_1' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:163]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_2' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:168]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_3' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:173]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_4' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:178]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_5' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:183]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_6' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:188]
+INFO: [Synth 8-3491] module 'Combiner' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd:34' bound to instance 'Combiner_7' of component 'Combiner' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier' (24#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd:41]
+INFO: [Synth 8-3491] module 'signed_divider' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/signed_divider.vhd:34' bound to instance 'DIVIDER_0' of component 'signed_divider' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'signed_divider' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/signed_divider.vhd:41]
+INFO: [Synth 8-3491] module 'Divider' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:34' bound to instance 'Divider_0' of component 'Divider' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/signed_divider.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'Divider' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:41]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_1' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:41]
+INFO: [Synth 8-3491] module 'Inverter' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Inverter.vhd:34' bound to instance 'Inverter_0' of component 'Inverter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:66]
+INFO: [Synth 8-3491] module 'RCA_8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA_8bit.vhd:34' bound to instance 'RCA_0' of component 'RCA_8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'RCA_8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA_8bit.vhd:42]
+INFO: [Synth 8-3491] module 'RCA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:34' bound to instance 'RCA1' of component 'RCA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA_8bit.vhd:62]
+INFO: [Synth 8-3491] module 'RCA' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA.vhd:34' bound to instance 'RCA2' of component 'RCA' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA_8bit.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'RCA_8bit' (25#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/RCA_8bit.vhd:42]
+INFO: [Synth 8-3491] module 'MUX_2_way_8bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_way_8bit.vhd:34' bound to instance 'MUX_0' of component 'MUX_2_way_8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_8bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_way_8bit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_8bit' (26#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_way_8bit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Divider_1bit' (27#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:41]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_2' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:64]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_3' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:70]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_4' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:76]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_5' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:82]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_6' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:88]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_7' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:94]
+INFO: [Synth 8-3491] module 'Divider_1bit' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd:34' bound to instance 'Divider_8' of component 'Divider_1bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:100]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_1' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Combiner_div' (28#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:40]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_2' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:111]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_3' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:116]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_4' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:121]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_5' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:126]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_6' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:131]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_7' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:136]
+INFO: [Synth 8-3491] module 'Combiner_div' declared at 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd:34' bound to instance 'Combiner_8' of component 'Combiner_div' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:141]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'Divider' (29#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Divider.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'signed_divider' (30#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/signed_divider.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'Power' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Power.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'validator' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/validator.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'validator' (31#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/validator.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Power' (32#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Power.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'CMP' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/CMP.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'CMP' (33#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/CMP.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_8_8.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'MUX_4_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_4_8.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_8' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_8.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_8' (34#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_2_8.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MUX_4_8' (35#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_4_8.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_8' (36#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/MUX_8_8.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (37#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/ALU.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'Out_unit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'Anode' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Anode.vhd:42]
+WARNING: [Synth 8-614] signal 'complement' is read in the process but is not in the sensitivity list [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Anode.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Anode' (38#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/new/Anode.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (39#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/LUT_16_7.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd:76]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'Out_unit' (40#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessorUpper' (41#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'NanoProcessorLower' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorLower.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'Prog_counter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Prog_counter.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Prog_counter' (42#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Prog_counter.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_4_bit' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/sources_1/new/MUX_2_way_4_bit.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'MUX_1_to_2' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/sources_1/new/MUX_1_to_2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX_1_to_2' (43#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/sources_1/new/MUX_1_to_2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_4_bit' (44#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/sources_1/imports/sources_1/new/MUX_2_way_4_bit.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/RCA_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (45#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/RCA_4.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'PROM' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/PROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'PROM' (46#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/PROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessorLower' (47#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessorLower.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'Reseter' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Reseter.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'DFF' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/DFF.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'DFF' (48#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/DFF.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Reseter' (49#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Reseter.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (50#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (51#1) [D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:46]
+WARNING: [Synth 8-3331] design Bitshiftright has unconnected port A[0]
+WARNING: [Synth 8-3331] design Bitshiftleft has unconnected port A[7]
+WARNING: [Synth 8-3331] design Combiner_div has unconnected port A[7]
+WARNING: [Synth 8-3331] design INS_DECO2 has unconnected port ZeroF
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 492.641 ; gain = 153.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 492.641 ; gain = 153.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 492.641 ; gain = 153.266
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "program_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 494.699 ; gain = 155.324
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2369  
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  17 Input     15 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	  17 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Reset 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Inverter 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module signed_divider 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Anode 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+Module Prog_counter 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module PROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input     15 Bit        Muxes := 1     
+Module DFF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "Slow_Clock_0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clock_0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design INS_DECO2 has unconnected port ZeroF
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[7]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[7]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[6]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[6]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[5]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[5]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[4]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[4]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[3]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[3]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[2]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[2]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_0/Q_reg[1]' (FD) to 'NPU/RegBank0/Reg_1/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'NPU/RegBank0/Reg_1/Q_reg[1]' (FD) to 'NPU/RegBank0/Reg_0/Q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NPU/RegBank0/Reg_0/Q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\NPU/RegBank0/Reg_1/Q_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_1/Q_reg[0]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_0/Q_reg[0]) is unused and will be removed from module NanoProcessor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 681.629 ; gain = 342.254
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 681.629 ; gain = 342.254
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[7]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[6]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[5]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[4]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[3]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[2]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[1]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (NPU/RegBank0/Reg_2/Q_reg[0]) is unused and will be removed from module NanoProcessor.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |    58|
+|5     |LUT3   |    51|
+|6     |LUT4   |    90|
+|7     |LUT5   |   118|
+|8     |LUT6   |   206|
+|9     |MUXF7  |     3|
+|10    |FDRE   |    81|
+|11    |IBUF   |     2|
+|12    |OBUF   |    22|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+-------------------+------+
+|      |Instance           |Module             |Cells |
++------+-------------------+-------------------+------+
+|1     |top                |                   |   642|
+|2     |  NPL              |NanoProcessorLower |   513|
+|3     |    ProgramCounter |Prog_counter       |   513|
+|4     |  NPU              |NanoProcessorUpper |    44|
+|5     |    ALU_0          |ALU                |     4|
+|6     |      POWER_0      |Power              |     3|
+|7     |    RegBank0       |RegBank            |    40|
+|8     |      Reg_3        |Reg                |     8|
+|9     |      Reg_4        |Reg_2              |     8|
+|10    |      Reg_5        |Reg_3              |     8|
+|11    |      Reg_6        |Reg_4              |     8|
+|12    |      Reg_7        |Reg_5              |     8|
+|13    |  Reseter_0        |Reseter            |     5|
+|14    |    FDFF           |DFF                |     1|
+|15    |    RDFF           |DFF_0              |     2|
+|16    |    SDFF           |DFF_1              |     2|
+|17    |  Slow_Clock_0     |Slow_Clk           |    54|
++------+-------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 683.785 ; gain = 344.410
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 683.785 ; gain = 344.410
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 683.785 ; gain = 344.410
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+234 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 733.258 ; gain = 406.277
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/Nuthara_N_R/UOM/Academic/Sem 2/CS1050 - Computer Organization and Digital Design/Labs/Lab 09 10/final submission/Lab_10/Lab 10.runs/synth_1/NanoProcessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NanoProcessor_utilization_synth.rpt -pb NanoProcessor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 733.258 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  1 11:17:42 2022...

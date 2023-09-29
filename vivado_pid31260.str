@@ -1,0 +1,1321 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 31260
+License: Customer
+
+Current time: 	Wed Aug 17 20:56:02 IST 2022
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 1 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Gimhan Sandeeptha
+User home directory: C:/Users/Gimhan Sandeeptha
+User working directory: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Gimhan Sandeeptha/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Gimhan Sandeeptha/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Gimhan Sandeeptha/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/vivado.log
+Vivado journal file location: 	D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/vivado.jou
+Engine tmp dir: 	D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/.Xil/Vivado-31260-LAPTOP-J3LKM3K9
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	204 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 573 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 61 MB (+61887kb) [00:00:07]
+// [Engine Memory]: 499 MB (+371563kb) [00:00:07]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\Gimhan Sandeeptha\Gimhan\Semester 02\Computer Organization and Digital Design\Labs\Lab 10\Lab 10\Lab 10.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10' 
+// [GUI Memory]: 75 MB (+11480kb) [00:00:10]
+// [Engine Memory]: 573 MB (+52059kb) [00:00:10]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 589 MB. GUI used memory: 34 MB. Current time: 8/17/22 8:56:04 PM IST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 632 MB (+30829kb) [00:00:13]
+// [Engine Memory]: 668 MB (+4596kb) [00:00:14]
+// Project name: Lab 10; location: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 897.941 ; gain = 148.754 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 38 seconds
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/new/Anode.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/new/Out_unit.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/imports/new/LUT_16_7.vhd");
+// Elapsed time: 19 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 86 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/new/Out_unit.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/imports/new/LUT_16_7.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/new/Anode.vhd}} 
+// c (ck): Add Sources: addNotify
+// bx (c):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/new/Out_unit.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/imports/new/LUT_16_7.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit/Out_unit.srcs/sources_1/new/Anode.vhd}} 
+dismissDialog("Add Sources"); // bx (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 84 MB (+5432kb) [00:01:57]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("Out_unit.vhd", 135, 76); // ce (w, ck)
+selectCodeEditor("Out_unit.vhd", 258, 46); // ce (w, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+// [GUI Memory]: 90 MB (+1083kb) [00:02:28]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessorUpper.vhd", 111, 42); // ce (w, ck)
+// [Engine Memory]: 702 MB (+751kb) [00:02:39]
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Out_unit.vhd", 1); // k (j, ck)
+selectCodeEditor("Out_unit.vhd", 372, 146); // ce (w, ck)
+typeControlKey((HResource) null, "Out_unit.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessorUpper.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 712 MB. GUI used memory: 72 MB. Current time: 8/17/22 8:59:14 PM IST
+// Elapsed time: 98 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 148, 229); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 148, 229, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 9, 275); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 196, 268); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 24, 317); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 157, 302); // ce (w, ck)
+// [GUI Memory]: 96 MB (+2218kb) [00:06:40]
+// Elapsed time: 188 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 110, 247); // ce (w, ck)
+// Elapsed time: 47 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 76, 230); // ce (w, ck)
+// [GUI Memory]: 103 MB (+1846kb) [00:11:58]
+// Elapsed time: 154 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 70 seconds
+selectCodeEditor("INS_DECO2.vhd", 340, 61); // ce (w, ck)
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1591ms to process. Increasing delay to 4000 ms.
+selectCodeEditor("INS_DECO2.vhd", 375, 79); // ce (w, ck)
+selectCodeEditor("INS_DECO2.vhd", 375, 79); // ce (w, ck)
+selectCodeEditor("INS_DECO2.vhd", 375, 79); // ce (w, ck)
+selectCodeEditor("INS_DECO2.vhd", 375, 79, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("INS_DECO2.vhd", 375, 79); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("INS_DECO2.vhd", 80, 96); // ce (w, ck)
+// [GUI Memory]: 108 MB (+186kb) [00:14:20]
+// Elapsed time: 15 seconds
+selectCodeEditor("INS_DECO2.vhd", 511, 244); // ce (w, ck)
+// Elapsed time: 24 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// [GUI Memory]: 114 MB (+684kb) [00:17:30]
+// Elapsed time: 162 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), ADD_SUB : RCA8bit(Behavioral) (RCA8bit.vhd)]", 10, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), ADD_SUB : RCA8bit(Behavioral) (RCA8bit.vhd)]", 10, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessorUpper.vhd", 2); // k (j, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 20, 454); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 20, 454, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 170 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 293, 295); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 102, 295); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 102, 295, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 91, 212); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 440, 231); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 54, 216); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 472, 229); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 472, 229, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 84, 453); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 84, 453, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 318, 386); // ce (w, ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+floatView(PAResourceOtoP.PAViews_CODE, "INS_DECO2.vhd *"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "INS_DECO2.vhd *"); // aw (aE, aG)
+selectCodeEditor("INS_DECO2.vhd", 292, 471); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 96, 468); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 96, 468, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("INS_DECO2.vhd", 499, 568); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 776, 571); // ce (w, aG)
+// [GUI Memory]: 121 MB (+1017kb) [00:23:18]
+// Elapsed time: 19 seconds
+selectCodeEditor("INS_DECO2.vhd", 776, 571); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 798, 571); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 776, 571); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 440, 568, false, false, false, true, false); // ce (w, aG) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("INS_DECO2.vhd", 778, 569); // ce (w, aG)
+typeControlKey((HResource) null, "INS_DECO2.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 778, 569); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 778, 569, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("INS_DECO2.vhd", 778, 569); // ce (w, aG)
+selectCodeEditor("INS_DECO2.vhd", 859, 567); // ce (w, aG)
+// [GUI Memory]: 127 MB (+273kb) [00:24:03]
+// k (ck): Text Changed: addNotify
+// PAResourceOtoP.PAViews_CODE: Code: close view
+// Elapsed time: 30 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "INS_DECO2.vhd*"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "INS_DECO2.vhd*"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "INS_DECO2.vhd*"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B (k, ck)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a (k)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // k (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 137 MB (+3082kb) [00:24:37]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessorUpper.vhd", 2); // k (j, ck)
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), MUX_2_way_8_bit_0 : MUX_2_way_8_bit(Behavioral) (MUX_2_way_8_bit.vhd)]", 7, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), MUX_2_way_8_bit_0 : MUX_2_way_8_bit(Behavioral) (MUX_2_way_8_bit.vhd)]", 7, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), MUX_2_way_8_bit_0 : MUX_2_way_8_bit(Behavioral) (MUX_2_way_8_bit.vhd)]", 6); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_0 : MUX_8_8(Behavioral) (MUX_8_8.vhd)]", 16); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_0 : MUX_8_8(Behavioral) (MUX_8_8.vhd), MUX_1 : MUX_4_8(Behavioral) (MUX_4_8.vhd)]", 17); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_0 : MUX_8_8(Behavioral) (MUX_8_8.vhd), MUX_1 : MUX_4_8(Behavioral) (MUX_4_8.vhd)]", 17); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_1 : MUX_8_8(Behavioral) (MUX_8_8.vhd)]", 19); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_1 : MUX_8_8(Behavioral) (MUX_8_8.vhd), MUX_1 : MUX_4_8(Behavioral) (MUX_4_8.vhd)]", 20); // B (D, ck)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessorUpper.vhd", 105, 92); // ce (w, ck)
+// Elapsed time: 25 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_1 : MUX_8_8(Behavioral) (MUX_8_8.vhd), MUX_1 : MUX_4_8(Behavioral) (MUX_4_8.vhd), MUX_1 : MUX_2_8(Behavioral) (MUX_2_8.vhd)]", 21, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_1 : MUX_8_8(Behavioral) (MUX_8_8.vhd), MUX_1 : MUX_4_8(Behavioral) (MUX_4_8.vhd), MUX_1 : MUX_2_8(Behavioral) (MUX_2_8.vhd)]", 21, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("MUX_2_8.vhd", 383, 261); // ce (w, ck)
+typeControlKey((HResource) null, "MUX_2_8.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessorUpper.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 19, 375); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 373, 212); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 30, 376); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 378, 463); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 397, 457); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 392, 435); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 383, 413); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 389, 400); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 299, 382); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 305, 383); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 32, 383); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 96, 391); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 85, 383); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 129, 401); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 140, 447); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 114, 467); // ce (w, ck)
+// Elapsed time: 185 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 100, 303); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 719 MB. GUI used memory: 55 MB. Current time: 8/17/22 9:29:15 PM IST
+// Elapsed time: 39 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 1, 283); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 112, 295); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 256, 327); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 115, 298); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 97, 335); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 277, 343); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 167, 240); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 14, 301); // ce (w, ck)
+// Elapsed time: 82 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 116, 295); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 73, 231); // ce (w, ck)
+// Elapsed time: 59 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 36, 402); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 79, 171); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 78, 166); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 75, 179); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 77, 195); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 103, 183); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 76, 192); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 110, 176); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 110, 176, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 42, 185); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 42, 185, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 46, 184); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 46, 184, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 167, 231); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 43, 185); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 43, 185, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 55, 184); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 55, 184, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 99, 174); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 99, 174, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 30 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 488, 66); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 91, 178); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 91, 178, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 375, 143); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 239, 194); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 493, 438); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 519, 435); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 532, 318); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 160, 112); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 101, 261); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 101, 261, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 103, 365); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 103, 365, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 567, 161); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 570, 161); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 91, 125); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 142, 176); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 78, 347); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 192, 171); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 82, 301); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 85, 313); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 96, 296); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 96, 296, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 85, 415); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 126, 320); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 126, 320, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 144, 314); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 144, 314, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 85, 166); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 85, 166, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 212, 174); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 92, 215); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 236, 182); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 45, 217); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 45, 217, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 49, 215); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 49, 215, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 230, 310); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 230, 310, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 203, 314); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 208, 314); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 208, 314, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 208, 314); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 214, 232); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 98, 212); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 96, 234); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 246, 331); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 530, 367); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 563, 370); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 563, 370, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 100, 226); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 96, 197); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 96, 197, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 111 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 4, 419); // ce (w, ck)
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "INS_DECO2.vhd", 5); // k (j, ck)
+selectCodeEditor("INS_DECO2.vhd", 218, 281); // ce (w, ck)
+typeControlKey((HResource) null, "INS_DECO2.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessorUpper.vhd", 2); // k (j, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 376, 299); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 376, 299); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 247, 148); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 171, 212); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 48, 414); // ce (w, ck)
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 53 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "INS_DECO2.vhd", 5); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 19 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 107, 212); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 107, 212, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 107, 212); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 107, 213); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 107, 213, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 471, 194); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 164, 411); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 164, 411, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 57 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 89, 160); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 89, 160, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 19 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_8_bit.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "INS_DECO2.vhd", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_8.vhd", 6); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessor.vhd", 7); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessorUpper.vhd", 2); // k (j, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 372, 280); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 299, 306); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 13 seconds
+selectCodeEditor("NanoProcessor.vhd", 75, 333); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+// Elapsed time: 225 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ck): Launch Runs: addNotify
+dismissDialog("Launch Runs"); // f (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: NanoProcessor 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1063.871 ; gain = 112.473 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:46] INFO: [Synth 8-3491] module 'NanoProcessorUpper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' bound to instance 'NPU' of component 'NanoProcessorUpper' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:86] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:46] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1119.574 ; gain = 168.176 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 5 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dP' command handler elapsed time: 6 seconds
+// S (ck): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bx (ck)
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 35 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 208, 179); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 260, 177); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("NanoProcessor.vhd", 372, 97); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("NanoProcessor.vhd", 250, 88); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Synth 8-3493] module 'nanoprocessorupper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' does not have matching formal port for component port 'sel' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:86]", 2); // b (D, S)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Synth 8-3493] module 'nanoprocessorupper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' does not have matching formal port for component port 'sel' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:86]", 2, false, false, false, false, true); // b (D, S) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // S (ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-3493] module 'nanoprocessorupper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' does not have matching formal port for component port 'l_out' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:86]. ]", 2); // ah (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: NanoProcessor 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1119.574 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:44] INFO: [Synth 8-3491] module 'NanoProcessorUpper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' bound to instance 'NPU' of component 'NanoProcessorUpper' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:84] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:44] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1119.574 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 5 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dP' command handler elapsed time: 3 seconds
+// S (ck): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bx (ck)
+dismissDialog("Critical Messages"); // S (ck)
+// Elapsed time: 11 seconds
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw (aE, ck)
+unMaximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: NanoProcessor 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1119.574 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:44] INFO: [Synth 8-3491] module 'NanoProcessorUpper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' bound to instance 'NPU' of component 'NanoProcessorUpper' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:84] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:44] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1119.711 ; gain = 0.137 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 5 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dP' command handler elapsed time: 4 seconds
+// S (ck): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bx (ck)
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessorUpper.vhd", 200, 93); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 40, 123); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessor.vhd", 2, 111); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 104, 231); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("NanoProcessor.vhd", 374, 125); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 233, 161); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 212, 160); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 719 MB. GUI used memory: 54 MB. Current time: 8/17/22 9:59:15 PM IST
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessor.vhd", 230, 231); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("NanoProcessor.vhd", 164, 201); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("NanoProcessor.vhd", 129, 216); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("NanoProcessor.vhd", 174, 137); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 40, 262); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 40, 262, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("NanoProcessor.vhd", 189, 208); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 68, 208); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("NanoProcessor.vhd", 218, 59); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ck):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'NanoProcessor' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj NanoProcessor_vhdl.prj" 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1119.711 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '6' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1119.711 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 8 seconds
+// a (ck): Critical Messages: addNotify
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: NanoProcessor 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1119.711 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'INS_DECO2' (3#1) [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd:49] 
+// Tcl Message: ERROR: [Synth 8-549] port width mismatch for port 'RegS1': port width = 3, actual width = 4 [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:137] ERROR: [Synth 8-549] port width mismatch for port 'RegS2': port width = 3, actual width = 4 [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:138] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'NanoProcessorUpper' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:45] ERROR: [Synth 8-285] failed synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:44] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1128.312 ; gain = 8.602 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 19 Infos, 1 Warnings, 0 Critical Warnings and 5 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dP' command handler elapsed time: 3 seconds
+// S (ck): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bx (ck)
+// Elapsed time: 36 seconds
+dismissDialog("Critical Messages"); // a (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 104, 109); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 104, 109, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), InsDeco : INS_DECO2(Behavioral) (INS_DECO2.vhd)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("INS_DECO2.vhd", 111, 74); // ce (w, ck)
+selectCodeEditor("INS_DECO2.vhd", 47, 126); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 14 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 158, 112); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 158, 112, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 98, 75); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 98, 75); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 52, 78, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // ad (aj, Popup.HeavyWeightWindow)
+typeControlKey(null, null, 'z');
+selectCodeEditor("NanoProcessorUpper.vhd", 152, 71); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 53, 81); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 93, 60); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 100, 59); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 100, 59, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 166, 114); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 166, 114, false, false, false, false, true); // ce (w, ck) - Double Click
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 32 seconds
+dismissDialog("Critical Messages"); // S (ck)
+dismissDialog("Critical Messages"); // S (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: NanoProcessor 
+// HMemoryUtils.trashcanNow. Engine heap size: 907 MB. GUI used memory: 54 MB. Current time: 8/17/22 10:05:15 PM IST
+// [Engine Memory]: 914 MB (+185539kb) [01:09:23]
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,037 MB. GUI used memory: 54 MB. Current time: 8/17/22 10:05:23 PM IST
+// [Engine Memory]: 1,037 MB (+81475kb) [01:09:31]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,134 MB (+47648kb) [01:09:32]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1128.312 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (48#1) [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:44] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1135.230 ; gain = 6.918 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1135.230 ; gain = 6.918 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1135.230 ; gain = 6.918 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1484.785 ; gain = 356.473 
+// Tcl Message: 202 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1484.785 ; gain = 356.473 
+// 'dP' command handler elapsed time: 17 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Open Elaborated Design"); // bx (ck)
+floatView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+// Elapsed time: 39 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 168, 299, 1520, 780, false, false, false, true, false); // f (aw, aG) - Popup Trigger
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, aG)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 46 seconds
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: dock view
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 22 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessor.vhd", 211, 111); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ck)
+// bx (ck):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// [Engine Memory]: 1,208 MB (+17298kb) [01:12:02]
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 86 MB. Current time: 8/17/22 10:07:55 PM IST
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 83 MB. Current time: 8/17/22 10:07:57 PM IST
+// Engine heap size: 1,221 MB. GUI used memory: 83 MB. Current time: 8/17/22 10:07:57 PM IST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1498.891 ; gain = 1.637 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1535.387 ; gain = 38.133 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1535.387 ; gain = 38.133 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1535.387 ; gain = 38.133 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 61 MB. Current time: 8/17/22 10:07:59 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.004 ; gain = 56.750 
+dismissDialog("Reloading"); // bx (ck)
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), ProgramCounter : Prog_counter(Behavioral) (Prog_counter.vhd)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), ProgramCounter : Prog_counter(Behavioral) (Prog_counter.vhd)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Prog_counter.vhd", 90, 139); // ce (w, ck)
+selectCodeEditor("Prog_counter.vhd", 94, 163); // ce (w, ck)
+selectCodeEditor("Prog_counter.vhd", 94, 163, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Prog_counter.vhd", 127, 82); // ce (w, ck)
+selectCodeEditor("Prog_counter.vhd", 215, 159); // ce (w, ck)
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), RCA : RCA_4(Behavioral) (RCA_4.vhd)]", 6, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), RCA : RCA_4(Behavioral) (RCA_4.vhd)]", 6); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), RCA : RCA_4(Behavioral) (RCA_4.vhd)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), RCA : RCA_4(Behavioral) (RCA_4.vhd)]", 6, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 55 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd), RCA : RCA_4(Behavioral) (RCA_4.vhd)]", 6); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPL : NanoProcessorLower(Behavioral) (NanoProcessorLower.vhd)]", 3); // B (D, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessor.vhd", 7); // k (j, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("NanoProcessor.vhd", 28, 331); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 117, 367); // ce (w, ck)
+// Elapsed time: 141 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 8); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// Elapsed time: 86 seconds
+selectCodeEditor("NanoProcessorLower.vhd", 11, 337); // ce (w, ck)
+// Elapsed time: 223 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// 'h' command handler elapsed time: 4 seconds
+dismissDialog("Add Sources"); // c (ck)
+// [GUI Memory]: 145 MB (+1506kb) [01:24:59]
+// Elapsed time: 318 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 133 seconds
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Anode.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Out_unit.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 28 seconds
+dismissFileChooser();
+// 'h' command handler elapsed time: 191 seconds
+// Elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 6, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Out_unit.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Out_unit.vhd}} 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// [GUI Memory]: 153 MB (+348kb) [01:32:15]
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Anode.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Out_unit.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Out_unit.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Anode.vhd}} 
+// c (ck): Add Sources: addNotify
+// bx (c):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Out_unit.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Out_unit_corrected/Out_unit.srcs/sources_1/new/Anode.vhd}} 
+dismissDialog("Add Sources"); // bx (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 6); // B (D, ck)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h (f, ck)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Anode(Behavioral) (Anode.vhd)]", 9, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/new/Anode.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (ck): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/new/Anode.vhd}} 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd), Anode_0 : Anode(Behavioral) (Anode.vhd)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd), Anode_0 : Anode(Behavioral) (Anode.vhd)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("Anode.vhd", 108, 76); // ce (w, ck)
+selectCodeEditor("Anode.vhd", 95, 211); // ce (w, ck)
+selectCodeEditor("Anode.vhd", 147, 213); // ce (w, ck)
+selectCodeEditor("Anode.vhd", 151, 266); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessor.vhd", 6); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 6, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessor.vhd", 6); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 16, 127); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 16, 127); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 109, 274); // ce (w, ck)
+// Elapsed time: 37 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 143, 316); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 13, 347); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 136, 315); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 8, 366); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 18, 339); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 13, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 13, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("Out_unit.vhd", 367, 130); // ce (w, ck)
+typeControlKey((HResource) null, "Out_unit.vhd", 'c'); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 138, 264); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 45 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 109, 360); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 10, 209); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 209, 176); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 6, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("Out_unit.vhd", 122, 195); // ce (w, ck)
+selectCodeEditor("Out_unit.vhd", 99, 230); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 17 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 365, 251); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 151, 112); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 364, 199); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 77, 295); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessorUpper.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 154, 316); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 152, 327); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 216, 282); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 363, 336); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 370, 332); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 72, 141); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 145, 328); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 145, 328, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 194, 311); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 16, 227); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("NanoProcessorUpper.vhd", 76, 254); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 15, 350); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 121, 165); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 127, 165); // ce (w, ck)
+// [GUI Memory]: 161 MB (+524kb) [01:41:21]
+selectCodeEditor("NanoProcessorUpper.vhd", 390, 196); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 97, 143); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 148, 164); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 127, 203); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 136, 189); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 154, 209); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 111, 230); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 91 MB. Current time: 8/17/22 10:38:01 PM IST
+// Elapsed time: 18 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 579, 232); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 94, 183); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 155, 230); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 1, 251); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 175, 227); // ce (w, ck)
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), BITSHIFTER_0 : BitShifter(Behavioral) (BitShifter.vhd)]", 15, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1634 ms. Increasing delay to 3000 ms.
+// Elapsed time: 70 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_0 : MUX_8_8(Behavioral) (MUX_8_8.vhd)]", 16); // B (D, ck)
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_0 : MUX_8_8(Behavioral) (MUX_8_8.vhd), MUX_2 : MUX_4_8(Behavioral) (MUX_4_8.vhd)]", 18); // B (D, ck)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("ALU.vhd", 51, 261); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 107, 298); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("ALU.vhd", 159, 303); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 98, 297, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("ALU.vhd", 84, 276); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 146, 300); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 146, 300, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("ALU.vhd", 76, 312); // ce (w, ck)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), MUX_2_8_0 : MUX_2_8(Behavioral) (MUX_2_8.vhd)]", 9, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), MUX_2_8_0 : MUX_2_8(Behavioral) (MUX_2_8.vhd)]", 9, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("MUX_2_8.vhd", 391, 311); // ce (w, ck)
+typeControlKey((HResource) null, "MUX_2_8.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd), MUL_0 : MUX_8_8(Behavioral) (MUX_8_8.vhd)]", 16, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd), ALU_0 : ALU(Behavioral) (ALU.vhd)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("ALU.vhd", 124, 107); // ce (w, ck)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("ALU.vhd", 8, 231); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectCodeEditor("ALU.vhd", 129, 311); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 176, 207); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 33, 159); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("ALU.vhd", 71, 165); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 68, 127); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 76, 283); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 76, 283, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("ALU.vhd", 70, 244); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 95, 256); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 95, 256, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+// Elapsed time: 27 seconds
+selectCodeEditor("ALU.vhd", 103, 166); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("ALU.vhd", 91, 153); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 43, 167); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 89, 146); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("ALU.vhd", 111, 234); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 87, 250); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("ALU.vhd", 52, 213); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 52, 213, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("ALU.vhd", 61, 214); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 48, 215); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 48, 215, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("ALU.vhd", 56, 215); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 56, 215, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("ALU.vhd", 96, 281); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 66, 95); // ce (w, ck)
+selectCodeEditor("ALU.vhd", 36, 76); // ce (w, ck)
+// Elapsed time: 58 seconds
+selectCodeEditor("ALU.vhd", 39, 94); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("ALU.vhd", 78, 93); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("ALU.vhd", 72, 143); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 38 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 348, 299); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 94, 270, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ad (aj, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessor.vhd", 210, 163); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessor.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 154, 199); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("NanoProcessor.vhd", 209, 283); // ce (w, ck)
+typeControlKey((HResource) null, "NanoProcessor.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 214, 284); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 150, 315); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 153, 328); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 386, 125); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("NanoProcessor.vhd", 103, 224); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("NanoProcessor.vhd", 91, 247); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("NanoProcessor.vhd", 116, 216); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 110, 214); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 64, 231); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 55, 245); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_8.vhd", 5); // k (j, ck)
+selectCodeEditor("MUX_2_8.vhd", 368, 131); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "INS_DECO2.vhd", 4); // k (j, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Out_unit(Behavioral) (Out_unit.vhd)]", 2); // B (D, ck)
+// Elapsed time: 23 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ck)
+// bx (ck):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1554.004 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FAIL
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:46] INFO: [Synth 8-3491] module 'NanoProcessorUpper' declared at 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:34' bound to instance 'NPU' of component 'NanoProcessorUpper' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:87] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'NanoProcessor' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd:46] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1557.270 ; gain = 3.266 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1557.305 ; gain = 3.301 
+// Tcl Message: ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.  
+// S (ck): Critical Messages: addNotify
+dismissDialog("Reloading"); // bx (ck)
+// Elapsed time: 24 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+// Elapsed time: 37 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Critical Messages"); // S (ck)
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ck)
+// bx (ck):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1557.848 ; gain = 0.055 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Anode' (38#1) [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Anode.vhd:42] INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/LUT_16_7.vhd:40] INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (39#1) [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/LUT_16_7.vhd:40] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Out_unit' (40#1) [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd:41] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1561.656 ; gain = 3.863 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1561.656 ; gain = 3.863 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1561.656 ; gain = 3.863 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 82 MB. Current time: 8/17/22 10:55:55 PM IST
+// Engine heap size: 1,221 MB. GUI used memory: 82 MB. Current time: 8/17/22 10:55:55 PM IST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 68 MB. Current time: 8/17/22 10:56:01 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 5 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 1621.980 ; gain = 64.188 
+// Elapsed time: 26 seconds
+dismissDialog("Reloading"); // bx (ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 1); // ah (O, ck)
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-665] expression has 4 elements ; formal regs1 expects 3 [D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd:137]. ]", 2); // ah (O, ck)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 1); // ah (O, ck)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true, false, false, false, false, true); // u (O, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 10 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ck)
+floatView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: close view
+// Elapsed time: 25 seconds
+closeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectCodeEditor("Out_unit.vhd", 998, 503); // ce (w, ck)
+// Elapsed time: 76 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), Slow_Clock_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), Slow_Clock_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), Slow_Clock_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), Slow_Clock_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessor.vhd", 85, 131); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 85, 131, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessor.vhd", 175, 199); // ce (w, ck)
+selectCodeEditor("NanoProcessor.vhd", 108, 217); // ce (w, ck)
+// Elapsed time: 72 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), NPU : NanoProcessorUpper(Behavioral) (NanoProcessorUpper.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("NanoProcessorUpper.vhd", 106, 29); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 106, 29, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 52 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 5, 395); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("NanoProcessorUpper.vhd", 98, 263); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 98, 263, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 92, 284); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 92, 284, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 88, 147); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 88, 147, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("NanoProcessorUpper.vhd", 89, 253); // ce (w, ck)
+selectCodeEditor("NanoProcessorUpper.vhd", 89, 253, false, false, false, false, true); // ce (w, ck) - Double Click
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 14, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 15, true); // B (D, ck) - Node
